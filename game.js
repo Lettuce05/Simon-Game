@@ -13,6 +13,15 @@ $(document).keydown(function () {
   }
 });
 
+//To make playable on touchscreens
+$("h1").click(function () {
+  if (!started) {
+    started = true;
+    $("h1").text("Level 0");
+    nextSequence();
+  }
+});
+
 $(".btn").click(function () {
   click++;
   var userChosenColour = $(this).attr("id");
