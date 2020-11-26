@@ -1,2 +1,3 @@
 # Simon-Game
-[Live Demo]()
+[Live Demo](https://lettuce05.github.io/Simon-Game/)
+
